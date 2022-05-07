@@ -2,6 +2,22 @@
     .promo {
         padding: 21px 35px 93px 35px;
     }
+    .consultation {
+        .title {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            display: block;
+            margin: 0 auto;
+            margin-top: 36px;
+            input {
+                width: 300px;
+            }
+        }
+    }
 }
 
 @media (max-width: 991px) {
@@ -119,6 +135,25 @@
         &__descr {
             margin-top: 6px;
             font-size: 13px;
+        }
+    }
+    .consultation {
+        padding: 60px 15px 60px 15px;
+        min-height: 595px;
+        .title {
+        font-size: 18px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        .feed-form {
+            width: 200px;
+            input {
+                width: 200px;
+            }
+            .button {
+                width: 200px;
+            }
         }
     }
 }
