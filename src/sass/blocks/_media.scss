@@ -162,8 +162,8 @@
         }
     }
     .consultation {
-        padding: 60px 15px 60px 15px;
-        min-height: 595px;
+        padding: 60px 15px 50px 15px;
+        min-height: 515px;
         .title {
         font-size: 18px;
         }
@@ -229,6 +229,47 @@
         hr {
             margin-top: 5px;
             margin-bottom: 5px;
+        }
+    }
+    .feed {
+        &__item {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+            &:nth-child(2){
+                margin-top: 30px;
+            }
+        }
+        &__text {
+            margin-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 320px;
+            height: 200px;
+            padding: 18px 25px;
+        }
+    }
+    .modal {
+        width: 250px;
+        padding: 11px 20px 25px 20px;
+        min-height: 375px;
+        &__close {
+            font-size: 30px;
+            right: -25px;
+            line-height: 10px;
+            font-weight: 700;
+        }
+        input {
+            width: 200px;
+            height: 40px;
+        }
+        button {
+            width: 200px;
+            height: 40px;
+            font-size: 12px;
         }
     }
 }
